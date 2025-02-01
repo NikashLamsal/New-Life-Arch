@@ -1,15 +1,19 @@
-# New Life Arch
+# New Life Arch           [![Preview](https://img.shields.io/badge/🔗-Preview-blue?style=for-the-badge)](https://nikashlamsal.github.io/New-Life-Arch/)
 
 Welcome to **New Life Arch**, a professional webpage for architectural consultancy services. This project is built using **HTML** and **CSS** to provide a clean and responsive user experience.
 
-## 🌟 Features
-- **Responsive Design**: The webpage is fully responsive and works seamlessly on all devices (desktop, tablet, and mobile).
+## Features
+- **Responsive Design**: The webpage is designed to be fully responsive, ensuring compatibility across all devices (desktop, tablet, and mobile). *Currently, some responsiveness improvements are in progress and will be updated soon.*
 - **Modern UI**: A clean and professional user interface designed to showcase architectural services.
 - **Easy Navigation**: Intuitive navigation for users to explore services, projects, and contact information.
 
-## 🛠️ Technologies Used
+## Technologies Used
 - **HTML**: For structuring the webpage.
 - **CSS**: For styling and layout.
-- **Responsive Design**: Media queries for cross-device compatibility.
+- **Responsive Design**: Media queries for cross-device compatibility (enhancements underway).
 
-## 🚀 How to Use
+## Preview
+You can view the project by clicking the **Preview** button above.
+
+## Future Improvements
+Stay tuned for upcoming improvements to ensure an even better user experience.
