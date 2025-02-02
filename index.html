@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
+  
 <div class="video-wrapper">
     <div class="video-background">
         <video autoplay loop muted>
@@ -21,6 +21,8 @@
             <img src="Images/NLA logo.png" alt="Header-logo">
         </div>
         
+        <div class="nav-toggle">&#9776;</div>  
+
         <div class="nav-links">
             <ul>
                 <li><a href="#">Home</a></li>
@@ -156,21 +158,22 @@
         <section class="team">
             <h1>Our Experts !</h1>
             <div class="members">
+                
                 <div class="member">
                     <img src="Images/nitish.jpg" alt="Nitish Lamsal">
                     <h3>Nitish Lamsal</h3>
                     <div class="post">
-                    <p>Civil Engineer | President</p>
+                        <p style="color: #007afc; font-weight: bold;">Civil Engineer | Chief Operating Officer</p>
                     </div>
-                    <p>With years of experience in structural design and construction, Nitish ensures every project is built with precision and excellence. As the President of our company, he leads with a vision for innovation and quality in architecture.</p>
+                    <p>With a strong foundation in structural engineering, Nitish ensures every project is built with precision and durability. As the COO, he oversees day-to-day operations, ensuring smooth execution and high-quality standards in all our projects.</p>
                 </div>
         
                 <div class="member">
                     <img src="Images/nikash.jpg" alt="Nikash Lamsal">
                     <h3>Nikash Lamsal</h3>
                     <div class="post">
-                    <p>Architect | CEO</p>
-                </div>
+                        <p style="color: #007afc; font-weight: bold;">Architect | Chief Executive Officer</p>
+                    </div>
                     <p>A creative mind with a passion for modern and sustainable design, Nikash transforms ideas into stunning architectural masterpieces. As the CEO, he drives the company forward with strategic planning and a commitment to excellence.</p>
                 </div>
         
@@ -178,12 +181,23 @@
                     <img src="Images/nitisha.jpg" alt="Nitisha Lamsal">
                     <h3>Nitisha Lamsal</h3>
                     <div class="post">
-                    <p>Interior Designer | Managing Director</p>
+                        <p style="color: #007afc; font-weight: bold;">Interior Designer | Real Estate Stylist</p>
+                    </div>
+                    <p>With an eye for aesthetics and functionality, Nitisha curates spaces that blend style and comfort. Her expertise in real estate styling helps create visually appealing interiors that enhance property value and client satisfaction.</p>
                 </div>
-                    <p>Nitisha specializes in crafting beautiful and functional interiors that reflect style and comfort. As the Managing Director, she oversees project execution and ensures every space tells a unique story of elegance and purpose.</p>
+        
+                <div class="member">
+                    <img src="Images/pooja.jpg" alt="Pooja Adhikari">
+                    <h3>Pooja Adhikari</h3>
+                    <div class="post">
+                        <p style="color: #007afc; font-weight: bold;">Project Director | Chief Marketing Officer</p>
+                    </div>
+                    <p>Pooja ensures seamless project execution, managing timelines and resources with efficiency. As the CMO, she leads branding and marketing strategies, driving the company’s presence and engagement in the architectural industry.</p>
                 </div>
+        
             </div>
         </section>
+        
         <footer>
             <div class="footer-logo">
                 <img src="Images/NLA logo.png" alt="New Life logo" width="50px" height="50px">
@@ -199,5 +213,16 @@
                 <span><a href=""><img src="Icons/linkedin-app-white-icon.svg" alt="Linked in"></a></span>
             </div>
         </footer>     
+
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+                const navToggle = document.querySelector(".nav-toggle");
+                const navLinks = document.querySelector(".nav-links");
+    
+                navToggle.addEventListener("click", function () {
+                    navLinks.classList.toggle("active");
+                });
+            });
+        </script> 
 </body>
 </html>
