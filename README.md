@@ -1,4 +1,4 @@
-# New Life Arch !................................................................................          [![Preview](https://img.shields.io/badge/🔗-Preview-blue?style=for-the-badge)](https://nikashlamsal.github.io/New-Life-Arch/)
+# New Life Arch !.....................................................................[![Preview](https://img.shields.io/badge/🔗-Preview-blue?style=for-the-badge)](https://nikashlamsal.github.io/New-Life-Arch/)
 
 Welcome to **New Life Arch**, a professional webpage for architectural consultancy services.
 
