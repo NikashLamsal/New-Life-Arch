@@ -1,4 +1,5 @@
-# New Life Arch[![Preview!](https://img.shields.io/badge/🚀-Play%20Now!-0a84ff?style=for-the-badge&logo=gamepad&logoColor=white)](https://nikashlamsal.github.io/New-Life-Arch/)
+# New Life Arch             [![🔍 Preview!](https://img.shields.io/badge/🔍-Preview!-0a84ff?style=for-the-badge&logo=eye&logoColor=white)](https://nikashlamsal.github.io/New-Life-Arch/)
+
 
 ### Welcome to **New Life Arch**, a professional webpage for architectural consultancy services.
 
