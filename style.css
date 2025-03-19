@@ -663,3 +663,29 @@ footer {
         display: none;
     }
 }
+
+/* Chatwoot styling */
+#chatwoot-widget-container {
+    bottom: 20px !important;
+    right: 20px !important;
+}
+
+#chatwoot-widget-container iframe {
+    width: auto !important;
+    height: 50px !important;
+    border-radius: 25px !important;
+    background-color: #007bff !important; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+}
+
+#chatwoot-widget-container iframe::before {
+    content: "💬 Chat with us";  
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    padding-left: 10px;
+    display: block;
+}
