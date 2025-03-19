@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>New Life Arch</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css"> 
+      
 </head>
 <body>
   
@@ -16,13 +17,11 @@
     </div>
 </div>
 
-    <nav class="navigation">
+    <nav>
+        <div class="navigation">
         <div class="logo">
             <img src="Images/NLA logo.png" alt="Header-logo">
         </div>
-        
-        <div class="nav-toggle">&#9776;</div>  
-
         <div class="nav-links">
             <ul>
                 <li><a href="#">Home</a></li>
@@ -33,7 +32,26 @@
                 <li><a href="#">Contact</a></li>
             </ul>
         </div>
+        <div class="menu-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        </div>
     </nav>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const menuIcon = document.querySelector('.menu-icon');
+            const navLinks = document.querySelector('.nav-links ul');
+
+            menuIcon.addEventListener('click', function () {
+                navLinks.classList.toggle('active');
+            });
+        });
+    </script> 
+
+
     <section class="who-we-are">
         <div class="container">
             <p>Who we are?</p>
@@ -226,6 +244,7 @@
         </script> 
 
 <script>
+    
     window.chatwootSettings = {"position":"right","type":"standard","launcherTitle":"Chat with us"};
     (function(d,t) {
       var BASE_URL="https://app.chatwoot.com";
