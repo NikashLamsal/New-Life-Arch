@@ -12,7 +12,8 @@
 - **HTML**: For structuring the webpage.
 - **CSS**: For styling and layout.
 - **Responsive Design**: Media queries for cross-device compatibility (enhancements underway).
-
+- **Live ChatBox**: Integration of a live chat feature using Chatwoot for real-time customer interaction.
+  
 ## Preview
 You can view the project by clicking the **Preview** button above.
 
