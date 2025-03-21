@@ -23,6 +23,7 @@
             <img src="Images/NLA logo.png" alt="Header-logo">
         </div>
         <div class="nav-links">
+            <div class="close-btn">✕</div>
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>
@@ -32,25 +33,21 @@
                 <li><a href="#">Contact</a></li>
             </ul>
         </div>
-        <div class="menu-icon">
+        <div class="hamburger-menu">
             <span></span>
             <span></span>
             <span></span>
+            <span></span>
+
+            <span></span>
+
+            <span></span>
+
         </div>
         </div>
     </nav>
 
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            const menuIcon = document.querySelector('.menu-icon');
-            const navLinks = document.querySelector('.nav-links ul');
-
-            menuIcon.addEventListener('click', function () {
-                navLinks.classList.toggle('active');
-            });
-        });
-    </script> 
-
+    <script src="script.js"></script>
 
     <section class="who-we-are">
         <div class="container">
@@ -231,17 +228,6 @@
                 <span><a href=""><img src="Icons/linkedin-app-white-icon.svg" alt="Linked in"></a></span>
             </div>
         </footer>     
-
-        <script>
-            document.addEventListener("DOMContentLoaded", function () {
-                const navToggle = document.querySelector(".nav-toggle");
-                const navLinks = document.querySelector(".nav-links");
-    
-                navToggle.addEventListener("click", function () {
-                    navLinks.classList.toggle("active");
-                });
-            });
-        </script> 
 
 <script>
     window.chatwootSettings = {
