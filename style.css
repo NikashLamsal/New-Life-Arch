@@ -729,8 +729,7 @@ footer {
 
 /* Contact us Styling */
 .contact-section {
-    width: 100vw; 
-    height: 100vh; 
+
     padding: 60px 20px; 
     margin: 0 auto; 
     background-color: #f8f9fa; 
@@ -783,7 +782,7 @@ footer {
 .map-container {
     width: 100%;
     max-width: 1000px; 
-    height: 600px;
+    height: 400px;
     margin: 0 auto; 
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
