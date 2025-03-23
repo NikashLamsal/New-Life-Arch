@@ -1,30 +1,34 @@
-document.addEventListener('DOMContentLoaded', function() {
-    const hamburgerMenu = document.querySelector('.hamburger-menu');
+document.addEventListener('DOMContentLoaded', () => {
+    const menuIcon = document.querySelector('.menu-icon');
     const navLinks = document.querySelector('.nav-links');
     const closeBtn = document.querySelector('.close-btn');
-    const menuLinks = document.querySelectorAll('.nav-links ul li a');
+    const dropdownToggles = document.querySelectorAll('.dropdown-toggle');
 
-    hamburgerMenu.addEventListener('click', function() {
+    // Toggle sidebar
+    menuIcon.addEventListener('click', () => {
+        menuIcon.classList.toggle('active');
         navLinks.classList.toggle('active');
-        hamburgerMenu.classList.toggle('active');
     });
 
-    closeBtn.addEventListener('click', function() {
+    closeBtn.addEventListener('click', () => {
+        menuIcon.classList.remove('active');
         navLinks.classList.remove('active');
-        hamburgerMenu.classList.remove('active');
     });
 
-    document.addEventListener('click', function(e) {
-        if (!navLinks.contains(e.target) && !hamburgerMenu.contains(e.target)) {
+    // Close menu when clicking a link (except dropdown toggle)
+    document.querySelectorAll('.nav-links a:not(.dropdown-toggle)').forEach(link => {
+        link.addEventListener('click', () => {
+            menuIcon.classList.remove('active');
             navLinks.classList.remove('active');
-            hamburgerMenu.classList.remove('active');
-        }
+        });
     });
 
-    menuLinks.forEach(link => {
-        link.addEventListener('click', function() {
-            navLinks.classList.remove('active');
-            hamburgerMenu.classList.remove('active');
+    // Toggle dropdown in mobile view
+    dropdownToggles.forEach(toggle => {
+        toggle.addEventListener('click', (e) => {
+            e.preventDefault();
+            const dropdown = toggle.parentElement;
+            dropdown.classList.toggle('active');
         });
     });
 });
