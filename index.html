@@ -220,6 +220,55 @@
             </div>
         </section>
 
+<!-- FAQ Section -->
+ 
+<section class="faq-section">
+    <h1>Frequently Asked Questions</h1>
+    <div class="faq-container">
+        <div class="faq-item">
+            <button class="faq-question">What services do you offer?</button>
+            <div class="faq-answer">
+                <p>We provide a full range of architectural consultancy services, including concept design, project planning, 3D modeling, sustainable design solutions, and construction oversight.</p>
+            </div>
+        </div>
+        <div class="faq-item">
+            <button class="faq-question">How long does a typical project take?</button>
+            <div class="faq-answer">
+                <p>The timeline varies depending on the project scope. Small residential projects may take 6-12 months, while larger commercial developments can span 1-3 years, including design and construction phases.</p>
+            </div>
+        </div>
+        <div class="faq-item">
+            <button class="faq-question">What is your approach to sustainable design?</button>
+            <div class="faq-answer">
+                <p>We prioritize eco-friendly materials, energy-efficient systems, and innovative designs to minimize environmental impact while maximizing functionality and aesthetics.</p>
+            </div>
+        </div>
+        <div class="faq-item">
+            <button class="faq-question">How do you determine project costs?</button>
+            <div class="faq-answer">
+                <p>Costs are calculated based on project size, complexity, materials, and client requirements. We provide detailed estimates after an initial consultation and scope assessment.</p>
+            </div>
+        </div>
+        <div class="faq-item">
+            <button class="faq-question">Can I see examples of your past work?</button>
+            <div class="faq-answer">
+                <p>Yes, we’d be happy to share our portfolio during a consultation. It includes residential, commercial, and public projects tailored to diverse client needs.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+    const faqQuestions = document.querySelectorAll(".faq-question");
+    faqQuestions.forEach(question => {
+        question.addEventListener("click", () => {
+            const answer = question.nextElementSibling;
+            answer.style.display = answer.style.display === "block" ? "none" : "block";
+        });
+    });
+</script>
+
+
 <!-- contact us section -->
  
 <section class="contact-section">
